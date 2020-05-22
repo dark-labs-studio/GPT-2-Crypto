@@ -1,8 +1,5 @@
-
-
-### Running GPT-2-Crypto
-GPT-2 Runs on an hourly Cron Schedule but needs to be kept running using one of the following methods:
-
+Forever Run Sequence
+--------------------
 1. CRONTAB
 
 //? Setup crontab to restart program every hour
@@ -30,6 +27,7 @@ forever index.js
 
 //? restart bot
 forever restart index.js
+
 
 -----------------
 3. PM2 Methods
