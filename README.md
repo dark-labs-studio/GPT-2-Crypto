@@ -1,42 +1,66 @@
+## Setup
+1. Clone or Download GPT-2-Crypto
+
+2. Clone or Download GPT-2-Crypto-Checkpoint
++ Move /GPT-2-Crypto-Checkpoint/Checkpoint -> /GPT-2-Crypto 
+
+3. Clone or Download GPT-2-Crypto-Model
++ Move /GPT-2-Crypto-Model/Model -> /GPT-2-Crypto 
 
 
-### Running GPT-2-Crypto
+## Running GPT-2-Crypto
 GPT-2 Runs on an hourly Cron Schedule but needs to be kept running using one of the following methods:
 
-1. CRONTAB
+### FOREVER
 
-//? Setup crontab to restart program every hour
-sudo crontab -e
+Show current jobs running on forever
 
-//? Add to crontab file
-*/36 * * * * restart /home/future/Code/DARK-labs/Projects/c-ai/C-AI_repo/M4pSK/M4pSK/build.sh
+```$ forever list```
 
-//? Give cronjob access
-chmod +x /home/future/Code/DARK-labs/Projects/c-ai/C-AI_repo/M4pSK/M4pSK/build.sh
 
---------------------
-2. FOREVER
+add  
 
-//? Show current jobs running on forever
-forever list
+```$ forever index.js```
 
-//? add 
-npm run bot
-or 
-forever index.js
 
-//? show data
-/home/future/.forever/Sn0M.log
+show data
 
-//? restart bot
-forever restart index.js
+```$ /home/future/.forever/[foreverOutput].log```
+
+
+restart bot
+
+```$ forever restart index.js```
+
+
+### CRONTAB
+
+Stup crontab to restart program every hour
+
+```$ sudo crontab -e```
+
+
+Add to crontab file
+
+```$ */36 * * * * restart /home/future/Code/DARK-labs/Projects/c-ai/C-AI_repo/M4pSK/M4pSK/build.sh```
+
+
+Give cronjob access
+
+```$ chmod +x /home/future/Code/DARK-labs/Projects/c-ai/C-AI_repo/M4pSK/M4pSK/build.sh```
 
 -----------------
-3. PM2 Methods
+### PM2 Methods
 
-//? start pm2
-pm2 start index.js
+start pm2
 
-//? start pm2 restarting script
-pm2 start pm2
-pm2 monit
+```$ pm2 start index.js```
+
+
+Start pm2 restarting script
+
+```$ pm2 start pm2```
+
+Monitor pm2
+
+```$ pm2 monit```
