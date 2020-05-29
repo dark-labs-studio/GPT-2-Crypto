@@ -1,3 +1,19 @@
+## Intro
+Language Transformers are one of the most exciting and mysterious use cases for machine learning Neural Nets. Giving us the ability to essentially talk to Artificial Intelligence. From Open AI's [Better Language Models and Their Implications](https://openai.com/blog/better-language-models/ "Better Language Models and Their Implications") "Our model, called GPT-2 (a successor to GPT), was trained simply to predict the next word in 40GB of Internet text." To play with GPT2 check out [Talk to Transformer](https://talktotransformer.com/ "Talk to Transformer")
+
+GPT-2 is a type of language model "capable of achieving state-of-the-art results on a set of benchmark and unique natural language processing tasks that range from language translation to generating news articles to answering SAT questions."
+
+
+I think it was spoken about on Kevin Scott's podcast [Behind the Tech](https://www.microsoft.com/en-us/behind-the-tech "Behind the Tech") that under a lot of the abstraction and mystery of language models, all they are doing is pattern recognition predicting the next character which after enough characters are successfully computed gives us the perception of speech. 
+
+This concept has been further demonstrated with GPT-2's ability, after feeding it enough data, to even cross language barriers or [Generate Pokemon](https://imgur.com/a/Vk0pheg "Generate Pokemon")!
+
+That being said we wanted to see if there was a way to __study GPT-2's pattern recognition ability__. If it's possible to leverage the Neural Net to predict the future and do this in a simple and binary format. With this criteria in place it because convenient to test this programatic hypothesis on the BITCOIN market.
+
+The program primarily uses Node / Javascript to retrieve the market data and parse the response with the machine learning portion being a tiny python script using the GPT-2 Simple package.
+[Jack](https://twitter.com/jack?s=20) on BTC "We have something that is pretty organic in nature and very principled in its original design...*It's poetry.*"
+
+
 # Setup
 1. Clone or Download GPT-2-Crypto
 
