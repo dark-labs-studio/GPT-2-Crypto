@@ -1,15 +1,31 @@
-## Setup
+# Setup
 1. Clone or Download GPT-2-Crypto
 
+
 2. Clone or Download GPT-2-Crypto-Checkpoint
-+ Move /GPT-2-Crypto-Checkpoint/Checkpoint -> /GPT-2-Crypto 
+[Gitlab-checkpoint](https://gitlab.com/M4pSK/gpt2-server-incrament-checkpoint)
+
+- Move /GPT-2-Crypto-Checkpoint/Checkpoint -> /GPT-2-Crypto 
+
 
 3. Clone or Download GPT-2-Crypto-Model
-+ Move /GPT-2-Crypto-Model/Model -> /GPT-2-Crypto 
+[Gitlab-Gpt-2-Model](https://gitlab.com/M4pSK/gpt2-server-incrament-model)
+
+- Move /GPT-2-Crypto-Model/Model -> /GPT-2-Crypto 
 
 
-## Running GPT-2-Crypto
-GPT-2 Runs on an hourly Cron Schedule but needs to be kept running using one of the following methods:
+## Install Node Dependencies
+
+```$ npm install```
+
+
+## Install Python Modules
+
+```$ pip install gpt-2-simple```
+
+
+# Run GPT-2-Crypto
+GPT-2 Runs on an hourly Cron Schedule but needs to be kept running using one of the following methods
 
 ### FOREVER
 
@@ -18,17 +34,17 @@ Show current jobs running on forever
 ```$ forever list```
 
 
-add  
+Add  Task
 
 ```$ forever index.js```
 
 
-show data
+Show Data
 
 ```$ /home/future/.forever/[foreverOutput].log```
 
 
-restart bot
+Restart Bot
 
 ```$ forever restart index.js```
 
