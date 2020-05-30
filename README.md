@@ -41,8 +41,53 @@ The program primarily uses Node / Javascript to retrieve the market data and par
 
 ```$ pip install gpt-2-simple```
 
+# Runtime
+```Time Stamp: May 15, 2020 7:10 PM
 
-# Run GPT-2-Crypto
+Unix Stamp: 1589569800
+
+Previous BTC Price: 9488.88532808
+
+Current BTC Price: 9504.92062577
+
+TradeStatus Previous: 1
+
+Binary Current: 1
+
+Input Length Check: 1935
+
+Input will readjust in 66 hours
+
+binaryInput: "10100111010111...101000101011"
+
+Binary Input Length: 1937
+
+ूੂ✧Loading GPT-2...
+
+✧A ूੂI ूੂ✧: Loading checkpoint checkpoint/run1/model-845
+
+✧A ूੂI ूੂ✧: 10100111010111...101000101011
+
+✧A ूੂI ूੂ✧: 00011001001011...1001000100100
+
+✧A ूੂI ूੂ✧: None
+
+GPT2 Output Data: "10100111010111...10100010101110000"
+
+Trade Log Position: 1936
+
+GPT2__Predict: 0
+
+GPT2 Output Data: 0
+
+Market Outcome: 1
+
+Time Stamp: May 15, 2020 7:15 PM
+
+Unix Stamp: 1589570101 
+```
+
+# Run GPT-2-Crypto on Hourly Schedule
 GPT-2 Runs on an hourly Cron Schedule but needs to be kept running using one of the following methods
 
 ### FOREVER
