@@ -1,4 +1,4 @@
-# GPT-2-Crypto
+# GPT-2-Crypto NLP Task
 Can a Natural Language Model be used to predict Bitcoin movement? Is GPT-2 a Proto Artificial General Intellegence capable of predicting binary Bitcoin price movement.
 
 Language Transformers are one of the most exciting and mysterious use cases for machine learning Neural Nets. Giving us the ability to essentially talk to Artificial Intelligence. From Open AI's [Better Language Models and Their Implications](https://openai.com/blog/better-language-models/ "Better Language Models and Their Implications") "Our model, called GPT-2 (a successor to GPT), was trained simply to predict the next word in 40GB of Internet text." To play with GPT2 check out [Talk to Transformer](https://talktotransformer.com/ "Talk to Transformer")
